@@ -11,11 +11,10 @@ The **SimpleStorage** contract allows you to:
 4. **Map** each person’s name to their favorite number for easy look-up.
 
 ## 🚀 Features
-
-	•	store: Save a favorite number on the blockchain.
-	•	retrieve: Retrieve the stored number.
-	•	addPerson: Add a person’s name and favorite number to the list and map.
-	•	Mapping: Quickly access a person’s favorite number using their name.
+- store: Save a favorite number on the blockchain.
+- retrieve: Retrieve the stored number.
+- addPerson: Add a person’s name and favorite number to the list and map.
+- Mapping: Quickly access a person’s favorite number using their name.
 
 ## 📦 Installation
 
@@ -28,21 +27,21 @@ git clone https://github.com/yourusername/simplestorage.git
 ```
 2.	Install Dependencies
     
-    Install forge, a development environment for Ethereum.
+Install forge, a development environment for Ethereum.
 
 3.	Compile the Contract
-    ```console
-    forge compile
-    ```
+```console
+forge compile
+```
 
 4.	Deploy the Contract
-    ```console
-    forge deploy script/DeploySimpleStorage.s.sol --rpc-url $YOUR_RPC_URL --account $YOUR_ACCOUNT --sender $ACCOUNT_ADDRESS_KEYSTORE --broadcast
-    ```
+```console
+forge deploy script/DeploySimpleStorage.s.sol --rpc-url $YOUR_RPC_URL --account $YOUR_ACCOUNT --sender $ACCOUNT_ADDRESS_KEYSTORE --broadcast
+```
 
 ## 🛠 Usage
 
-- Using Remix
+### Using Remix
 
 You can test the contract directly in Remix IDE:
 
